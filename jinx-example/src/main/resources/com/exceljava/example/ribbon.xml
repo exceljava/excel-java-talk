@@ -1,0 +1,38 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui"
+          loadImage="jinx.loadImage">  <!-- jinx.loadImage is a built-in image loader -->
+    <ribbon>
+        <tabs>
+            <tab id="jinx_example_tab" label="Jinx">
+                <group id="JinxTools" label="Jinx Tools">
+                    <button id="Reload"
+                            size="large"
+                            label="Reload Jinx"
+                            onAction="jinx.reload"
+                            image="com/exceljava/jinx/examples/icons/reload.png"/>
+                    <button id="LogFile"
+                            size="large"
+                            label="Log File"
+                            onAction="jinx.openLogFile"
+                            image="com/exceljava/jinx/examples/icons/log.png"/>
+                    <button id="About"
+                            size="large"
+                            label="About Jinx"
+                            onAction="jinx.about"
+                            image="com/exceljava/jinx/examples/icons/about.png"/>
+                </group>
+                <group id="TradingTools" label="Trading Tools">
+                    <button id="CreateBlotter"
+                            size="large"
+                            label="Create Blotter"
+                            onAction="writeTradeBlotter"
+                            image="com/exceljava/example/icons/blotter.png"/>
+                    <button id="BookTrades"
+                            size="large"
+                            label="Book Trades"
+                            onAction="readTradeBlotter"
+                            image="com/exceljava/example/icons/save.png"/>
+                </group>
+            </tab>
+        </tabs>
+    </ribbon>
+</customUI>

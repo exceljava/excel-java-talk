@@ -1,0 +1,9 @@
+#
+# Classes to be loaded from this example JAR
+#
+# These could be specified in the jinx.ini file
+# instead using the 'classes' setting.
+#
+com.exceljava.example.TradeBlotter
+com.exceljava.example.BlackScholes
+com.exceljava.example.ExcelFunctions
