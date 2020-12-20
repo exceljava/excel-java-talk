@@ -1,4 +1,4 @@
-# Code for LJC Talk "Tools for Working with Excel in Java"
+# Code for Talk "Tools for Working with Excel in Java"
 
 There are three projects in this repo corresponding to the three sections of the talk.
 
